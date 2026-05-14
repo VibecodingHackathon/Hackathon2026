@@ -48,7 +48,9 @@ Convert each mapping element to PySpark equivalent:
 - Handle lookups and joins
 - Implement quality checks
 - Create output DataFrames/tables
-
+- Address the ambiguous column issues while joining using the alias name
+- Write the comments in short and crisp
+  
 ### Step 5: Validation & Output
 - Verify all fields are converted
 - Check for missing transformations
