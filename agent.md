@@ -57,13 +57,15 @@ Convert each mapping element to PySpark equivalent:
 - Generate complete, executable PySpark script
 - Include comments for each transformation
 - Output file naming convention: `{original_mapping_name}_pyspark.py`
+- Replace the existing pyspark code with the generated pyspark code if same mapping xml file is given as input
 
 ### Step 6: Repository Management
 - Add generated PySpark code file to repository
 - Add input IDMC file to repository (in `input/` directory)
 - Maintain version history
 - Do NOT add any files without explicit user request
-
+- Replace the existing input file with the given xml file if same mapping xml file is given as input
+  
 ### Step 7: Ready for Next Input
 - Confirm successful conversion
 - Ask if user has another IDMC file to convert
